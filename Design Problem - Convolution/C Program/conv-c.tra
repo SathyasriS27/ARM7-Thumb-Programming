@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'conv-c.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"convolutions.o"'
+### ADS-LD Command completed:
+--device DARMP "startup.o" "convolutions.o" --strict --scatter "conv-c.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\conv-c.map" -o "conv-c.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'conv-c.axf'
+### ADS-LD Command File: 'conv-c.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'conv-c.lnp', Handle=0x000008C8
+### Writing '.lnp' file
+### ADS-LD Command file 'conv-c.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,72 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             SBCS, CODE, READONLY
+    2 00000000         ENTRY
+    3 00000000 E3A00101        LDR              R0, =0X40000000 ;
+    4 00000004 E4901004        LDR              R1, [R0], #04 ;  LOAD DIVISION 
+                                                            IN R1
+    5 00000008 E4902004        LDR              R2, [R0], #04 ; LOAD DIVIDEND I
+                                                            NTO R2, HOLDS REMIN
+                                                            DER
+    6 0000000C E3A06000        MOV              R6, #00     ;  QUOTIENT
+    7 00000010         
+    8 00000010 E0522001 
+                       LO      SUBS             R2, R2, R1  ;  R2=R2-R1=-1; R2>
+                                                            R1
+    9 00000014 22866001        ADDCS            R6, R6, #1  ;  COUNT NUMBER OF 
+                                                            LOOPS
+   10 00000018 2AFFFFFC        BCS              LO          ;    STAY IN LOOP I
+                                                            F BORROW IS ZER0
+   11 0000001C E0822001        ADD              R2, R2, R1
+   12 00000020 E4802004        STR              R2, [R0], #04
+   13 00000024 E4806004        STR              R6, [R0], #04
+   14 00000028         
+   15 00000028 EAFFFFFE 
+                       UP      B                UP
+   16 0000002C                 END
+Command Line: --debug --xref --device=DARMP --apcs=interwork -o7a.o -I"C:\Progr
+am Files\ARM\INC\Philips" --predefine="__EVAL SETA 1" --list=7a.lst 7a.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+ENTRY 00000000
+
+Symbol: ENTRY
+   Definitions
+      At line 2 in file 7a.asm
+   Uses
+      None
+Comment: ENTRY unused
+LO 00000010
+
+Symbol: LO
+   Definitions
+      At line 8 in file 7a.asm
+   Uses
+      At line 10 in file 7a.asm
+Comment: LO used once
+SBCS 00000000
+
+Symbol: SBCS
+   Definitions
+      At line 1 in file 7a.asm
+   Uses
+      None
+Comment: SBCS unused
+UP 00000028
+
+Symbol: UP
+   Definitions
+      At line 15 in file 7a.asm
+   Uses
+      At line 15 in file 7a.asm
+Comment: UP used once
+4 symbols
+324 symbols in table

@@ -1,0 +1,8 @@
+Dependencies for Project 'conv-c', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4A02A570)(--device DARMP --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o")
+F (.\Updated\convolutions.c)(0x608956C9)(-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Program Files\ARM\INC\Philips" -o "convolutions.o" --omf_browse "convolutions.crf" --depend "convolutions.d")
+I (C:\Program Files\ARM\INC\Philips\lpc21xx.h)(0x4A02A636)
+I (C:\Program Files\ARM\RV31\INC\string.h)(0x4A02A792)
+I (C:\Program Files\ARM\RV31\INC\stdlib.h)(0x4A02A792)
+I (C:\Program Files\ARM\RV31\INC\math.h)(0x4A02A792)
+I (C:\Program Files\ARM\RV31\INC\stdio.h)(0x4A02A792)

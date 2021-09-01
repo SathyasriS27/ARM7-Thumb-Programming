@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Yash Umale\Documents\6th Sem\Microprocessor Lab Source Files\Lab 8\lab8.uvproj
+Project File Date:  03/11/2021
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling 7a.asm...
+7a.asm(1): error: A1163E: Unknown opcode SBCS, , expecting opcode or Macro
+7a.asm(2): error: A1355U: A Label was found which was in no AREA
+assembling 7b.asm...
+7b.asm(1): error: A1163E: Unknown opcode SBCS, , expecting opcode or Macro
+7b.asm(2): error: A1355U: A Label was found which was in no AREA
+Target not created
+Build target 'Target 1'
+assembling 7a.asm...
+assembling 7b.asm...
+7b.asm(1): error: A1163E: Unknown opcode SBCS, , expecting opcode or Macro
+7b.asm(2): error: A1355U: A Label was found which was in no AREA
+Target not created
+Build target 'Target 1'
+linking...
+Program Size: Code=44 RO-data=0 RW-data=0 ZI-data=0  
+"lab8.axf" - 0 Error(s), 0 Warning(s).
+compiling C:\Program Files\ARM\INC\Philips\LPC214X.h...
+SfrCC FATAL-ERROR -
+  ACTION:  CREATING FILE
+  FILE:    C:\Program Files\ARM\INC\Philips\LPC214X.LST
+  ERROR:   CAN'T CREATE FILE
+SfrCC TERMINATED.
+compiling C:\Program Files\ARM\INC\Philips\LPC214X.h...
+SfrCC FATAL-ERROR -
+  ACTION:  CREATING FILE
+  FILE:    C:\Program Files\ARM\INC\Philips\LPC214X.LST
+  ERROR:   CAN'T CREATE FILE
+SfrCC TERMINATED.
+compiling C:\Program Files\ARM\INC\Philips\LPC214X.h...
+SfrCC FATAL-ERROR -
+  ACTION:  CREATING FILE
+  FILE:    C:\Program Files\ARM\INC\Philips\LPC214X.LST
+  ERROR:   CAN'T CREATE FILE
+SfrCC TERMINATED.

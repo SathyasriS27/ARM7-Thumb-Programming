@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Yash Umale\Documents\6th Sem\MPMC Lab\Design Problem\C Program\Test\testProj.uvproj
+Project File Date:  04/27/2021
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling test.c...
+test.c(190): error:  #268: declaration may not appear after executable statement in block
+test.c(190): error:  #28: expression must have a constant value
+test.c(190): error:  #28: expression must have a constant value
+test.c(190): error:  #28: expression must have a constant value
+test.c(190): error:  #28: expression must have a constant value
+test.c(190): warning:  #177-D: variable "no" was declared but never referenced
+test.c(14): warning:  #550-D: variable "n1" was set but never used
+test.c(14): warning:  #550-D: variable "n2" was set but never used
+test.c(14): warning:  #550-D: variable "n3" was set but never used
+test.c(15): warning:  #177-D: variable "e1" was declared but never referenced
+test.c(31): warning:  #177-D: variable "e" was declared but never referenced
+test.c(406): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling test.c...
+test.c(14): warning:  #550-D: variable "n1" was set but never used
+test.c(14): warning:  #550-D: variable "n2" was set but never used
+test.c(14): warning:  #550-D: variable "n3" was set but never used
+test.c(15): warning:  #177-D: variable "e1" was declared but never referenced
+test.c(31): warning:  #177-D: variable "e" was declared but never referenced
+test.c(406): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=6700 RO-data=304 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+"testProj.axf" - 0 Error(s), 6 Warning(s).

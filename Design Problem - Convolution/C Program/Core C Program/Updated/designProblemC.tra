@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'designProblemC.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"convolutions.o"'
+### ADS-LD Command completed:
+--device DARMP "startup.o" "convolutions.o" --strict --scatter "designProblemC.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\designProblemC.map" -o "designProblemC.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'designProblemC.axf'
+### ADS-LD Command File: 'designProblemC.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'designProblemC.lnp', Handle=0x000009D8
+### Writing '.lnp' file
+### ADS-LD Command file 'designProblemC.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

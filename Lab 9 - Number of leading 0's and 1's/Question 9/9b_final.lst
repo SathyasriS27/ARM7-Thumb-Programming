@@ -1,0 +1,76 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             SBCS, CODE, READONLY
+    2 00000000         
+    3 00000000                 ENTRY
+    4 00000000 E3A00000        MOV              R0, #0X00   ; Storing leading 0
+                                                            's
+    5 00000004 E59F1020        LDR              R1, =0X40001000 ; Starting addr
+                                                            ess of the user per
+                                                            mitted memory
+    6 00000008 E3A03020        MOV              R3, #32
+    7 0000000C E4912004        LDR              R2, [R1], #04 ; Loading first d
+                                                            ata into R2
+    8 00000010         
+    9 00000010         LOOP
+   10 00000010 E1B02082        MOVS             R2, R2, LSL #01 ; Left shift an
+                                                            d set flag bits
+   11 00000014 32800001        ADDCC            R0, R0, #01
+   12 00000018 2A000001        BCS              ENDIF
+   13 0000001C E2533001        SUBS             R3, R3, #01
+   14 00000020 1AFFFFFA        BNE              LOOP
+   15 00000024         
+   16 00000024         ENDIF
+   17 00000024 E5810000        STR              R0, [R1]
+   18 00000028         
+   19 00000028 EAFFFFFE 
+                       UP      B                UP
+   20 0000002C                 END
+              40001000 
+Command Line: --debug --xref --device=DARMP --apcs=interwork -o9b_final.o -I"C:
+\Program Files\ARM\INC\Philips" --predefine="__EVAL SETA 1" --list=9b_final.lst
+ 9b_final.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+ENDIF 00000024
+
+Symbol: ENDIF
+   Definitions
+      At line 16 in file 9b_final.asm
+   Uses
+      At line 12 in file 9b_final.asm
+Comment: ENDIF used once
+LOOP 00000010
+
+Symbol: LOOP
+   Definitions
+      At line 9 in file 9b_final.asm
+   Uses
+      At line 14 in file 9b_final.asm
+Comment: LOOP used once
+SBCS 00000000
+
+Symbol: SBCS
+   Definitions
+      At line 1 in file 9b_final.asm
+   Uses
+      None
+Comment: SBCS unused
+UP 00000028
+
+Symbol: UP
+   Definitions
+      At line 19 in file 9b_final.asm
+   Uses
+      At line 19 in file 9b_final.asm
+Comment: UP used once
+4 symbols
+326 symbols in table

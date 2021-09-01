@@ -1,0 +1,62 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             SBCS, CODE,READONLY
+    2 00000000                 ENTRY
+    3 00000000         
+    4 00000000 E3A00101        LDR              R0,=0X40000000
+    5 00000004 E59F2020        LDR              R2, =0X40000050
+    6 00000008         
+    7 00000008 E3A03004        MOV              R3, #0X04   ;
+    8 0000000C         LO
+    9 0000000C E4901004        LDR              R1,[R0],#04 ;
+   10 00000010 E1B01081        MOVS             R1, R1, LSL #01 ;
+   11 00000014 33E02000        MOVCC            R2,#0XFFFFFFFF
+   12 00000018 23A02202        MOVCS            R2,#0X20000000
+   13 0000001C         
+   14 0000001C E4802004        STR              R2,[R0],#04
+   15 00000020 E2533001        SUBS             R3,R3,#01
+   16 00000024 1AFFFFF8        BNE              LO
+   17 00000028         
+   18 00000028 EAFFFFFE 
+                       UP      B                UP
+   19 0000002C                 END
+              40000050 
+Command Line: --debug --xref --device=DARMP --apcs=interwork -oq8bs.o -I"C:\Pro
+gram Files\ARM\INC\Philips" --predefine="__EVAL SETA 1" --list=q8bs.lst q8bs.as
+m
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+LO 0000000C
+
+Symbol: LO
+   Definitions
+      At line 8 in file q8bs.asm
+   Uses
+      At line 16 in file q8bs.asm
+Comment: LO used once
+SBCS 00000000
+
+Symbol: SBCS
+   Definitions
+      At line 1 in file q8bs.asm
+   Uses
+      None
+Comment: SBCS unused
+UP 00000028
+
+Symbol: UP
+   Definitions
+      At line 18 in file q8bs.asm
+   Uses
+      At line 18 in file q8bs.asm
+Comment: UP used once
+3 symbols
+325 symbols in table

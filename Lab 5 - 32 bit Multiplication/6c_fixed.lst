@@ -1,0 +1,65 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             SBCS, CODE, READONLY
+    2 00000000                 ENTRY
+    3 00000000 E3A00101        LDR              R0,=0X40000000 ;Base Address
+    4 00000004 E3A04000        LDR              R4,=0X00000000 ;ACC1
+    5 00000008 E3A05000        LDR              R5,=0X00000000 ;ACC2
+    6 0000000C E3A06005        LDR              R6,=0X5     ;Iteration count (5
+                                                             nos.)
+    7 00000010 E59F701C        LDR              R7,=0X40000040 
+                                                            ;Base Address (RES)
+                                                            
+    8 00000014         
+    9 00000014 E4901004 
+                       LO      LDR              R1,[R0],#04
+   10 00000018 E4902004        LDR              R2,[R0],#04
+   11 0000001C E0A45291        UMLAL            R5, R4, R1, R2
+   12 00000020 E2566001        SUBS             R6,R6,#1
+   13 00000024 1AFFFFFA        BNE              LO
+   14 00000028         
+   15 00000028 E4874004        STR              R4, [R7], #04
+   16 0000002C E5875000        STR              R5, [R7]
+   17 00000030 EAFFFFFE 
+                       UP      B                UP
+   18 00000034                 END
+              40000040 
+Command Line: --debug --xref --device=DARMP --apcs=interwork -o6c_fixed.o -I"C:
+\Program Files\ARM\INC\Philips" --predefine="__EVAL SETA 1" --list=6c_fixed.lst
+ 6c_fixed.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+LO 00000014
+
+Symbol: LO
+   Definitions
+      At line 9 in file 6c_fixed.asm
+   Uses
+      At line 13 in file 6c_fixed.asm
+Comment: LO used once
+SBCS 00000000
+
+Symbol: SBCS
+   Definitions
+      At line 1 in file 6c_fixed.asm
+   Uses
+      None
+Comment: SBCS unused
+UP 00000030
+
+Symbol: UP
+   Definitions
+      At line 17 in file 6c_fixed.asm
+   Uses
+      At line 17 in file 6c_fixed.asm
+Comment: UP used once
+3 symbols
+325 symbols in table

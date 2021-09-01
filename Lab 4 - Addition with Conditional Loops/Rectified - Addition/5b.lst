@@ -1,0 +1,68 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             LAB5, CODE, READONLY
+    2 00000000         ENTRY
+    3 00000000 E3A00101        LDR              R0,=0X40000000
+    4 00000004 E3A02000        LDR              R2,=0X00000000
+    5 00000008 E3A03005        LDR              R3,=0X00000005
+    6 0000000C E59F501C        LDR              R5,=0X40000040
+    7 00000010         
+    8 00000010 E4901004 
+                       LO      LDR              R1, [R0], #04
+    9 00000014 E0922001        ADDS             R2, R2, R1
+   10 00000018 22866001        ADDCS            R6, R6, #1
+   11 0000001C E2533001        SUBS             R3, R3, #1
+   12 00000020 1AFFFFFA        BNE              LO
+   13 00000024         
+   14 00000024 E4852004        STR              R2, [R5], #04
+   15 00000028 E5856000        STR              R6, [R5]
+   16 0000002C EAFFFFFE 
+                       UP      B                UP
+   17 00000030                 END
+              40000040 
+Command Line: --debug --xref --device=DARMP --apcs=interwork -o5b.o -I"C:\Progr
+am Files\ARM\INC\Philips" --predefine="__EVAL SETA 1" --list=5b.lst 5b.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+ENTRY 00000000
+
+Symbol: ENTRY
+   Definitions
+      At line 2 in file 5b.asm
+   Uses
+      None
+Comment: ENTRY unused
+LAB5 00000000
+
+Symbol: LAB5
+   Definitions
+      At line 1 in file 5b.asm
+   Uses
+      None
+Comment: LAB5 unused
+LO 00000010
+
+Symbol: LO
+   Definitions
+      At line 8 in file 5b.asm
+   Uses
+      At line 12 in file 5b.asm
+Comment: LO used once
+UP 0000002C
+
+Symbol: UP
+   Definitions
+      At line 16 in file 5b.asm
+   Uses
+      At line 16 in file 5b.asm
+Comment: UP used once
+4 symbols
+326 symbols in table

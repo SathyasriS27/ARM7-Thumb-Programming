@@ -1,0 +1,2 @@
+Dependencies for Project 'designProblem', Target 'Target 1': (DO NOT MODIFY !)
+F (.\conv_real.asm)(0x60802740)(--device DARMP --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files\ARM\INC\Philips" --list "conv_real.lst" --xref -o "conv_real.o")

@@ -1,0 +1,114 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             SBCS, CODE, READONLY
+    2 00000000         
+    3 00000000                 ENTRY
+    4 00000000 E59F0040        LDR              R0,=0X40001000
+    5 00000004 E59FA040        LDR              R10,=0X40001050
+    6 00000008         
+    7 00000008 E3E03000        LDR              R3, =0XFFFFFFFF
+    8 0000000C E3A04202        LDR              R4, =0X20000000
+    9 00000010         
+   10 00000010 E4905004        LDR              R5, [R0], #04 ; N (no. of numbe
+                                                            rs)
+   11 00000014 E2455001        SUB              R5, R5, #01 ; counter
+   12 00000018 E4902004        LDR              R2, [R0], #04
+   13 0000001C         
+   14 0000001C         
+   15 0000001C         START
+   16 0000001C         
+   17 0000001C E1B06082 
+                       XQ      LSLS             R6, R2, #1  ; 
+   18 00000020         
+   19 00000020 2A000000        BCS              NEG
+   20 00000024 3A000001        BCC              POS
+   21 00000028         
+   22 00000028         NEG
+   23 00000028 E48A4004        STR              R4, [R10], #04 ;
+   24 0000002C EA000001        B                FINALLY
+   25 00000030         
+   26 00000030         POS
+   27 00000030 E48A3004        STR              R3, [R10], #04 ;
+   28 00000034 EAFFFFFF        B                FINALLY
+   29 00000038         
+   30 00000038         FINALLY
+   31 00000038 E2555001        SUBS             R5, R5, #01
+   32 0000003C E4902004        LDR              R2, [R0], #04
+   33 00000040 2AFFFFF5        BCS              START
+   34 00000044         
+   35 00000044 EAFFFFFE 
+                       UP      B                UP
+   36 00000048                 END
+              40001000 
+              40001050 
+Command Line: --debug --xref --device=DARMP --apcs=interwork -oq8b.o -I"C:\Prog
+ram Files\ARM\INC\Philips" --predefine="__EVAL SETA 1" --list=q8b.lst q8b.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+FINALLY 00000038
+
+Symbol: FINALLY
+   Definitions
+      At line 30 in file q8b.asm
+   Uses
+      At line 24 in file q8b.asm
+      At line 28 in file q8b.asm
+
+NEG 00000028
+
+Symbol: NEG
+   Definitions
+      At line 22 in file q8b.asm
+   Uses
+      At line 19 in file q8b.asm
+Comment: NEG used once
+POS 00000030
+
+Symbol: POS
+   Definitions
+      At line 26 in file q8b.asm
+   Uses
+      At line 20 in file q8b.asm
+Comment: POS used once
+SBCS 00000000
+
+Symbol: SBCS
+   Definitions
+      At line 1 in file q8b.asm
+   Uses
+      None
+Comment: SBCS unused
+START 0000001C
+
+Symbol: START
+   Definitions
+      At line 15 in file q8b.asm
+   Uses
+      At line 33 in file q8b.asm
+Comment: START used once
+UP 00000044
+
+Symbol: UP
+   Definitions
+      At line 35 in file q8b.asm
+   Uses
+      At line 35 in file q8b.asm
+Comment: UP used once
+XQ 0000001C
+
+Symbol: XQ
+   Definitions
+      At line 17 in file q8b.asm
+   Uses
+      None
+Comment: XQ unused
+7 symbols
+329 symbols in table

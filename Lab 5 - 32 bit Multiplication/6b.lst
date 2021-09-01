@@ -1,0 +1,44 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             SBCS, CODE, READONLY
+    2 00000000                 ENTRY
+    3 00000000 E3A00101        LDR              R0, =0x40000000
+    4 00000004 E3A051C1        LDR              R5, =0x40000030
+    5 00000008 E4901004        LDR              R1, [R0], #04
+    6 0000000C E4902004        LDR              R2, [R0], #04
+    7 00000010 E0834291        UMULL            R4, R3, R1, R2
+    8 00000014 E4854004        STR              R4, [R5], #04
+    9 00000018 E5853000        STR              R3, [R5]
+   10 0000001C EAFFFFFE 
+                       UP      B                UP
+   11 00000020                 END
+Command Line: --debug --xref --device=DARMP --apcs=interwork -o6b.o -I"C:\Progr
+am Files\ARM\INC\Philips" --predefine="__EVAL SETA 1" --list=6b.lst 6b.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+SBCS 00000000
+
+Symbol: SBCS
+   Definitions
+      At line 1 in file 6b.asm
+   Uses
+      None
+Comment: SBCS unused
+UP 0000001C
+
+Symbol: UP
+   Definitions
+      At line 10 in file 6b.asm
+   Uses
+      At line 10 in file 6b.asm
+Comment: UP used once
+2 symbols
+322 symbols in table

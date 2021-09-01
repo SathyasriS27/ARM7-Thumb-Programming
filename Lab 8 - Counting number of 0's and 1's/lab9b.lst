@@ -1,0 +1,72 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             SBSC, CODE, READONLY
+    2 00000000                 ENTRY
+    3 00000000 E3A00101        LDR              R0, =0X40000000
+    4 00000004 E4904004        LDR              R4, [R0], #4 ; total count (N)
+    5 00000008 E4901004        LDR              R1, [R0], #4 ; first number
+    6 0000000C         
+    7 0000000C E4902004 
+                       LO      LDR              R2, [R0], #4 ; second number
+    8 00000010 E1510002        CMP              R1, R2
+    9 00000014 DA000002        BLE              DN
+   10 00000018 E1A01002        MOV              R1, R2      ; smaller number in
+                                                             R1
+   11 0000001C E2544001        SUBS             R4, R4, #1
+   12 00000020 1AFFFFF9        BNE              LO
+   13 00000024         
+   14 00000024 E2544001 
+                       DN      SUBS             R4, R4, #1
+   15 00000028 1AFFFFF7        BNE              LO
+   16 0000002C E4801004        STR              R1, [R0], #4
+   17 00000030 EAFFFFFE 
+                       UP      B                UP
+   18 00000034                 END
+Command Line: --debug --xref --device=DARMP --apcs=interwork -olab9b.o -I"C:\Pr
+ogram Files\ARM\INC\Philips" --predefine="__EVAL SETA 1" --list=lab9b.lst lab9b
+.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+DN 00000024
+
+Symbol: DN
+   Definitions
+      At line 14 in file lab9b.asm
+   Uses
+      At line 9 in file lab9b.asm
+Comment: DN used once
+LO 0000000C
+
+Symbol: LO
+   Definitions
+      At line 7 in file lab9b.asm
+   Uses
+      At line 12 in file lab9b.asm
+      At line 15 in file lab9b.asm
+
+SBSC 00000000
+
+Symbol: SBSC
+   Definitions
+      At line 1 in file lab9b.asm
+   Uses
+      None
+Comment: SBSC unused
+UP 00000030
+
+Symbol: UP
+   Definitions
+      At line 17 in file lab9b.asm
+   Uses
+      At line 17 in file lab9b.asm
+Comment: UP used once
+4 symbols
+324 symbols in table

@@ -1,0 +1,41 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             ADD, CODE, READONLY
+    2 00000000                 ENTRY
+    3 00000000 E3A00003        MOV              R0, #0X00000003
+    4 00000004 E3A01004        MOV              R1, #0X00000004
+    5 00000008 E0802001        ADD              R2, R0, R1
+    6 0000000C EAFFFFFE 
+                       UP      B                UP
+    7 00000010                 END
+Command Line: --debug --xref --device=DARMP --apcs=interwork -olab21.o -I"C:\Pr
+ogram Files\ARM\INC\Philips" --predefine="__EVAL SETA 1" --list=lab21.lst lab21
+.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+ADD 00000000
+
+Symbol: ADD
+   Definitions
+      At line 1 in file lab21.asm
+   Uses
+      None
+Comment: ADD unused
+UP 0000000C
+
+Symbol: UP
+   Definitions
+      At line 6 in file lab21.asm
+   Uses
+      At line 6 in file lab21.asm
+Comment: UP used once
+2 symbols
+322 symbols in table

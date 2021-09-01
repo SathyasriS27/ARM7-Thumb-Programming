@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "test.o" --strict --scatter "testProj.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\testProj.map" -o "testProj.axf"

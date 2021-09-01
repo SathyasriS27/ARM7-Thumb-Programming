@@ -1,0 +1,5 @@
+Dependencies for Project 'lab12_new', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4A02A570)(--device DARMP --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o")
+F (.\lab12.c)(0x60814B52)(-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Program Files\ARM\INC\Philips" -o "lab12.o" --omf_browse "lab12.crf" --depend "lab12.d")
+I (C:\Program Files\ARM\RV31\INC\stdio.h)(0x4A02A792)
+I (C:\Program Files\ARM\INC\Philips\lpc21xx.h)(0x4A02A636)

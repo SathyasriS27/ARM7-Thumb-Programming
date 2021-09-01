@@ -1,0 +1,62 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             SBCS, CODE, READONLY
+    2 00000000                 ENTRY
+    3 00000000 E3A04000        LDR              R4, =0x00000000
+    4 00000004 E3A05000        LDR              R5, =0x00000000
+    5 00000008 E3A07005        LDR              R7, =0x00000005
+    6 0000000C E3A09000        LDR              R9, =0x00000000
+    7 00000010 E3A00101        LDR              R0, =0x40000000
+    8 00000014 E3A01161        LDR              R1, =0x40000018
+    9 00000018 E3A061E1        LDR              R6, =0x40000038
+   10 0000001C         
+   11 0000001C E4902004 
+                       LO      LDR              R2, [R0], #04
+   12 00000020 E4913004        LDR              R3, [R1], #04
+   13 00000024 E0A45392        UMLAL            R5, R4, R2, R3
+   14 00000028 E2599001        SUBS             R9, R9, #01
+   15 0000002C 1AFFFFFA        BNE              LO
+   16 00000030         
+   17 00000030 E4864004        STR              R4, [R6], #04
+   18 00000034 E5865000        STR              R5, [R6]
+   19 00000038 EAFFFFFE 
+                       UP      B                UP
+   20 0000003C                 END
+Command Line: --debug --xref --device=DARMP --apcs=interwork -o6c.o -I"C:\Progr
+am Files\ARM\INC\Philips" --predefine="__EVAL SETA 1" --list=6c.lst 6c.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+LO 0000001C
+
+Symbol: LO
+   Definitions
+      At line 11 in file 6c.asm
+   Uses
+      At line 15 in file 6c.asm
+Comment: LO used once
+SBCS 00000000
+
+Symbol: SBCS
+   Definitions
+      At line 1 in file 6c.asm
+   Uses
+      None
+Comment: SBCS unused
+UP 00000038
+
+Symbol: UP
+   Definitions
+      At line 19 in file 6c.asm
+   Uses
+      At line 19 in file 6c.asm
+Comment: UP used once
+3 symbols
+323 symbols in table

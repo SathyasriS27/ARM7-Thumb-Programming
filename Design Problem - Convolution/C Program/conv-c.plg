@@ -1,0 +1,358 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Yash Umale\Documents\6th Sem\MPMC Lab\Design Problem\C Program\conv-c.uvproj
+Project File Date:  04/27/2021
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling convolutions.c...
+Updated\convolutions.c(16): warning:  #177-D: variable "outs" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "x1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "h1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "d1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "e1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "outl" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "noNos" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "tempN1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "length" was declared but never referenced
+Updated\convolutions.c(18): warning:  #177-D: variable "q" was declared but never referenced
+Updated\convolutions.c(25): warning:  #177-D: variable "err" was declared but never referenced
+Updated\convolutions.c(26): warning:  #177-D: variable "test" was declared but never referenced
+Updated\convolutions.c(28): warning:  #177-D: variable "tempChary" was declared but never referenced
+Updated\convolutions.c(31): warning:  #177-D: variable "nChar" was declared but never referenced
+Updated\convolutions.c(38): warning:  #177-D: variable "itempx" was declared but never referenced
+Updated\convolutions.c(39): warning:  #177-D: variable "itemph" was declared but never referenced
+Updated\convolutions.c(41): warning:  #177-D: variable "tempy" was declared but never referenced
+Updated\convolutions.c(45): warning:  #550-D: variable "outxs" was set but never used
+Updated\convolutions.c(46): warning:  #550-D: variable "outxl" was set but never used
+Updated\convolutions.c(526): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=5172 RO-data=304 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+"conv-c.axf" - 0 Error(s), 20 Warning(s).
+Build target 'Target 1'
+compiling convolutions.c...
+Updated\convolutions.c(16): warning:  #177-D: variable "outs" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "x1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "h1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "d1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "e1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "outl" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "noNos" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "tempN1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "length" was declared but never referenced
+Updated\convolutions.c(18): warning:  #177-D: variable "q" was declared but never referenced
+Updated\convolutions.c(25): warning:  #177-D: variable "err" was declared but never referenced
+Updated\convolutions.c(26): warning:  #177-D: variable "test" was declared but never referenced
+Updated\convolutions.c(28): warning:  #177-D: variable "tempChary" was declared but never referenced
+Updated\convolutions.c(31): warning:  #177-D: variable "nChar" was declared but never referenced
+Updated\convolutions.c(38): warning:  #177-D: variable "itempx" was declared but never referenced
+Updated\convolutions.c(39): warning:  #177-D: variable "itemph" was declared but never referenced
+Updated\convolutions.c(41): warning:  #177-D: variable "tempy" was declared but never referenced
+Updated\convolutions.c(45): warning:  #550-D: variable "outxs" was set but never used
+Updated\convolutions.c(46): warning:  #550-D: variable "outxl" was set but never used
+Updated\convolutions.c(526): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=5172 RO-data=304 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+"conv-c.axf" - 0 Error(s), 20 Warning(s).
+Build target 'Target 1'
+compiling convolutions.c...
+Updated\convolutions.c(16): warning:  #177-D: variable "outs" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "x1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "h1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "d1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "e1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "outl" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "noNos" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "tempN1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "length" was declared but never referenced
+Updated\convolutions.c(18): warning:  #177-D: variable "q" was declared but never referenced
+Updated\convolutions.c(25): warning:  #177-D: variable "err" was declared but never referenced
+Updated\convolutions.c(26): warning:  #177-D: variable "test" was declared but never referenced
+Updated\convolutions.c(28): warning:  #177-D: variable "tempChary" was declared but never referenced
+Updated\convolutions.c(31): warning:  #177-D: variable "nChar" was declared but never referenced
+Updated\convolutions.c(38): warning:  #177-D: variable "itempx" was declared but never referenced
+Updated\convolutions.c(39): warning:  #177-D: variable "itemph" was declared but never referenced
+Updated\convolutions.c(41): warning:  #177-D: variable "tempy" was declared but never referenced
+Updated\convolutions.c(45): warning:  #550-D: variable "outxs" was set but never used
+Updated\convolutions.c(46): warning:  #550-D: variable "outxl" was set but never used
+Updated\convolutions.c(526): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=5172 RO-data=304 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+"conv-c.axf" - 0 Error(s), 20 Warning(s).
+Build target 'Target 1'
+compiling convolutions.c...
+Updated\convolutions.c(213): error:  #165: too few arguments in function call
+Updated\convolutions.c(16): warning:  #177-D: variable "outs" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "x1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "h1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "d1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "e1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "outl" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "noNos" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "tempN1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "length" was declared but never referenced
+Updated\convolutions.c(18): warning:  #177-D: variable "q" was declared but never referenced
+Updated\convolutions.c(22): warning:  #177-D: variable "tester" was declared but never referenced
+Updated\convolutions.c(25): warning:  #177-D: variable "err" was declared but never referenced
+Updated\convolutions.c(26): warning:  #177-D: variable "test" was declared but never referenced
+Updated\convolutions.c(28): warning:  #177-D: variable "tempChary" was declared but never referenced
+Updated\convolutions.c(31): warning:  #177-D: variable "nChar" was declared but never referenced
+Updated\convolutions.c(38): warning:  #177-D: variable "itempx" was declared but never referenced
+Updated\convolutions.c(39): warning:  #177-D: variable "itemph" was declared but never referenced
+Updated\convolutions.c(41): warning:  #177-D: variable "tempy" was declared but never referenced
+Updated\convolutions.c(45): warning:  #550-D: variable "outxs" was set but never used
+Updated\convolutions.c(46): warning:  #550-D: variable "outxl" was set but never used
+Updated\convolutions.c(538): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling convolutions.c...
+Updated\convolutions.c(213): error:  #165: too few arguments in function call
+Updated\convolutions.c(16): warning:  #177-D: variable "outs" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "x1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "h1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "d1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "e1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "outl" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "noNos" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "tempN1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "length" was declared but never referenced
+Updated\convolutions.c(18): warning:  #177-D: variable "q" was declared but never referenced
+Updated\convolutions.c(22): warning:  #177-D: variable "tester" was declared but never referenced
+Updated\convolutions.c(25): warning:  #177-D: variable "err" was declared but never referenced
+Updated\convolutions.c(26): warning:  #177-D: variable "test" was declared but never referenced
+Updated\convolutions.c(28): warning:  #177-D: variable "tempChary" was declared but never referenced
+Updated\convolutions.c(31): warning:  #177-D: variable "nChar" was declared but never referenced
+Updated\convolutions.c(38): warning:  #177-D: variable "itempx" was declared but never referenced
+Updated\convolutions.c(39): warning:  #177-D: variable "itemph" was declared but never referenced
+Updated\convolutions.c(41): warning:  #177-D: variable "tempy" was declared but never referenced
+Updated\convolutions.c(45): warning:  #550-D: variable "outxs" was set but never used
+Updated\convolutions.c(46): warning:  #550-D: variable "outxl" was set but never used
+Updated\convolutions.c(538): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling convolutions.c...
+Updated\convolutions.c(16): warning:  #177-D: variable "outs" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "x1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "h1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "d1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "e1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "outl" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "noNos" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "tempN1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "length" was declared but never referenced
+Updated\convolutions.c(18): warning:  #177-D: variable "q" was declared but never referenced
+Updated\convolutions.c(22): warning:  #177-D: variable "tester" was declared but never referenced
+Updated\convolutions.c(25): warning:  #177-D: variable "err" was declared but never referenced
+Updated\convolutions.c(26): warning:  #177-D: variable "test" was declared but never referenced
+Updated\convolutions.c(28): warning:  #177-D: variable "tempChary" was declared but never referenced
+Updated\convolutions.c(31): warning:  #177-D: variable "nChar" was declared but never referenced
+Updated\convolutions.c(38): warning:  #177-D: variable "itempx" was declared but never referenced
+Updated\convolutions.c(39): warning:  #177-D: variable "itemph" was declared but never referenced
+Updated\convolutions.c(41): warning:  #177-D: variable "tempy" was declared but never referenced
+Updated\convolutions.c(45): warning:  #550-D: variable "outxs" was set but never used
+Updated\convolutions.c(46): warning:  #550-D: variable "outxl" was set but never used
+Updated\convolutions.c(538): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=5100 RO-data=304 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+"conv-c.axf" - 0 Error(s), 21 Warning(s).
+Build target 'Target 1'
+compiling convolutions.c...
+Updated\convolutions.c(265): warning:  #128-D: loop is not reachable from preceding code
+Updated\convolutions.c(16): warning:  #177-D: variable "outs" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "x1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "h1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "d1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "e1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "outl" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "noNos" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "tempN1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "length" was declared but never referenced
+Updated\convolutions.c(18): warning:  #177-D: variable "q" was declared but never referenced
+Updated\convolutions.c(22): warning:  #177-D: variable "tester" was declared but never referenced
+Updated\convolutions.c(25): warning:  #177-D: variable "err" was declared but never referenced
+Updated\convolutions.c(26): warning:  #177-D: variable "test" was declared but never referenced
+Updated\convolutions.c(28): warning:  #177-D: variable "tempChary" was declared but never referenced
+Updated\convolutions.c(31): warning:  #177-D: variable "nChar" was declared but never referenced
+Updated\convolutions.c(38): warning:  #177-D: variable "itempx" was declared but never referenced
+Updated\convolutions.c(39): warning:  #177-D: variable "itemph" was declared but never referenced
+Updated\convolutions.c(41): warning:  #177-D: variable "tempy" was declared but never referenced
+Updated\convolutions.c(45): warning:  #550-D: variable "outxs" was set but never used
+Updated\convolutions.c(46): warning:  #550-D: variable "outxl" was set but never used
+Updated\convolutions.c(538): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=3628 RO-data=304 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+"conv-c.axf" - 0 Error(s), 22 Warning(s).
+Build target 'Target 1'
+compiling convolutions.c...
+Updated\convolutions.c(16): warning:  #177-D: variable "outs" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "x1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "h1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "d1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "e1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "outl" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "noNos" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "tempN1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "length" was declared but never referenced
+Updated\convolutions.c(18): warning:  #177-D: variable "q" was declared but never referenced
+Updated\convolutions.c(22): warning:  #177-D: variable "tester" was declared but never referenced
+Updated\convolutions.c(25): warning:  #177-D: variable "err" was declared but never referenced
+Updated\convolutions.c(26): warning:  #177-D: variable "test" was declared but never referenced
+Updated\convolutions.c(28): warning:  #177-D: variable "tempChary" was declared but never referenced
+Updated\convolutions.c(31): warning:  #177-D: variable "nChar" was declared but never referenced
+Updated\convolutions.c(38): warning:  #177-D: variable "itempx" was declared but never referenced
+Updated\convolutions.c(39): warning:  #177-D: variable "itemph" was declared but never referenced
+Updated\convolutions.c(41): warning:  #177-D: variable "tempy" was declared but never referenced
+Updated\convolutions.c(45): warning:  #550-D: variable "outxs" was set but never used
+Updated\convolutions.c(46): warning:  #550-D: variable "outxl" was set but never used
+Updated\convolutions.c(538): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=5096 RO-data=304 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+"conv-c.axf" - 0 Error(s), 21 Warning(s).
+Build target 'Target 1'
+compiling convolutions.c...
+Updated\convolutions.c(16): warning:  #177-D: variable "outs" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "x1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "h1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "d1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "e1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "outl" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "noNos" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "tempN1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "length" was declared but never referenced
+Updated\convolutions.c(18): warning:  #177-D: variable "q" was declared but never referenced
+Updated\convolutions.c(22): warning:  #177-D: variable "tester" was declared but never referenced
+Updated\convolutions.c(25): warning:  #177-D: variable "err" was declared but never referenced
+Updated\convolutions.c(26): warning:  #177-D: variable "test" was declared but never referenced
+Updated\convolutions.c(28): warning:  #177-D: variable "tempChary" was declared but never referenced
+Updated\convolutions.c(31): warning:  #177-D: variable "nChar" was declared but never referenced
+Updated\convolutions.c(38): warning:  #177-D: variable "itempx" was declared but never referenced
+Updated\convolutions.c(39): warning:  #177-D: variable "itemph" was declared but never referenced
+Updated\convolutions.c(41): warning:  #177-D: variable "tempy" was declared but never referenced
+Updated\convolutions.c(45): warning:  #550-D: variable "outxs" was set but never used
+Updated\convolutions.c(46): warning:  #550-D: variable "outxl" was set but never used
+Updated\convolutions.c(529): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=5032 RO-data=304 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+"conv-c.axf" - 0 Error(s), 21 Warning(s).
+Build target 'Target 1'
+compiling convolutions.c...
+Updated\convolutions.c(16): warning:  #177-D: variable "outs" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "x1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "h1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "d1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "e1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "outl" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "noNos" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "tempN1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "length" was declared but never referenced
+Updated\convolutions.c(18): warning:  #177-D: variable "q" was declared but never referenced
+Updated\convolutions.c(22): warning:  #177-D: variable "tester" was declared but never referenced
+Updated\convolutions.c(25): warning:  #177-D: variable "err" was declared but never referenced
+Updated\convolutions.c(26): warning:  #177-D: variable "test" was declared but never referenced
+Updated\convolutions.c(28): warning:  #177-D: variable "tempChary" was declared but never referenced
+Updated\convolutions.c(31): warning:  #177-D: variable "nChar" was declared but never referenced
+Updated\convolutions.c(38): warning:  #177-D: variable "itempx" was declared but never referenced
+Updated\convolutions.c(39): warning:  #177-D: variable "itemph" was declared but never referenced
+Updated\convolutions.c(41): warning:  #177-D: variable "tempy" was declared but never referenced
+Updated\convolutions.c(45): warning:  #550-D: variable "outxs" was set but never used
+Updated\convolutions.c(46): warning:  #550-D: variable "outxl" was set but never used
+Updated\convolutions.c(530): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=5036 RO-data=304 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+"conv-c.axf" - 0 Error(s), 21 Warning(s).
+Build target 'Target 1'
+compiling convolutions.c...
+Updated\convolutions.c(16): warning:  #177-D: variable "outs" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "x1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "h1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "d1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "e1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "outl" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "noNos" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "tempN1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "length" was declared but never referenced
+Updated\convolutions.c(18): warning:  #177-D: variable "q" was declared but never referenced
+Updated\convolutions.c(22): warning:  #177-D: variable "tester" was declared but never referenced
+Updated\convolutions.c(25): warning:  #177-D: variable "err" was declared but never referenced
+Updated\convolutions.c(26): warning:  #177-D: variable "test" was declared but never referenced
+Updated\convolutions.c(28): warning:  #177-D: variable "tempChary" was declared but never referenced
+Updated\convolutions.c(31): warning:  #177-D: variable "nChar" was declared but never referenced
+Updated\convolutions.c(38): warning:  #177-D: variable "itempx" was declared but never referenced
+Updated\convolutions.c(39): warning:  #177-D: variable "itemph" was declared but never referenced
+Updated\convolutions.c(41): warning:  #177-D: variable "tempy" was declared but never referenced
+Updated\convolutions.c(45): warning:  #550-D: variable "outxs" was set but never used
+Updated\convolutions.c(46): warning:  #550-D: variable "outxl" was set but never used
+Updated\convolutions.c(531): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=5036 RO-data=304 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+"conv-c.axf" - 0 Error(s), 21 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=5036 RO-data=304 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+"conv-c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling convolutions.c...
+Updated\convolutions.c(296): warning:  #223-D: function "delay_long" declared implicitly
+Updated\convolutions.c(16): warning:  #177-D: variable "outs" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "x1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "h1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "d1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "e1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "outl" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "noNos" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "tempN1" was declared but never referenced
+Updated\convolutions.c(16): warning:  #177-D: variable "length" was declared but never referenced
+Updated\convolutions.c(18): warning:  #177-D: variable "q" was declared but never referenced
+Updated\convolutions.c(22): warning:  #177-D: variable "tester" was declared but never referenced
+Updated\convolutions.c(25): warning:  #177-D: variable "err" was declared but never referenced
+Updated\convolutions.c(26): warning:  #177-D: variable "test" was declared but never referenced
+Updated\convolutions.c(28): warning:  #177-D: variable "tempChary" was declared but never referenced
+Updated\convolutions.c(31): warning:  #177-D: variable "nChar" was declared but never referenced
+Updated\convolutions.c(38): warning:  #177-D: variable "itempx" was declared but never referenced
+Updated\convolutions.c(39): warning:  #177-D: variable "itemph" was declared but never referenced
+Updated\convolutions.c(41): warning:  #177-D: variable "tempy" was declared but never referenced
+Updated\convolutions.c(45): warning:  #550-D: variable "outxs" was set but never used
+Updated\convolutions.c(46): warning:  #550-D: variable "outxl" was set but never used
+Updated\convolutions.c(522): error:  #159: declaration is incompatible with previous "delay_long" (declared at line 296)
+Updated\convolutions.c(532): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling convolutions.c...
+Updated\convolutions.c(17): warning:  #177-D: variable "outs" was declared but never referenced
+Updated\convolutions.c(17): warning:  #177-D: variable "x1" was declared but never referenced
+Updated\convolutions.c(17): warning:  #177-D: variable "h1" was declared but never referenced
+Updated\convolutions.c(17): warning:  #177-D: variable "d1" was declared but never referenced
+Updated\convolutions.c(17): warning:  #177-D: variable "e1" was declared but never referenced
+Updated\convolutions.c(17): warning:  #177-D: variable "outl" was declared but never referenced
+Updated\convolutions.c(17): warning:  #177-D: variable "noNos" was declared but never referenced
+Updated\convolutions.c(17): warning:  #177-D: variable "tempN1" was declared but never referenced
+Updated\convolutions.c(17): warning:  #177-D: variable "length" was declared but never referenced
+Updated\convolutions.c(19): warning:  #177-D: variable "q" was declared but never referenced
+Updated\convolutions.c(23): warning:  #177-D: variable "tester" was declared but never referenced
+Updated\convolutions.c(26): warning:  #177-D: variable "err" was declared but never referenced
+Updated\convolutions.c(27): warning:  #177-D: variable "test" was declared but never referenced
+Updated\convolutions.c(29): warning:  #177-D: variable "tempChary" was declared but never referenced
+Updated\convolutions.c(32): warning:  #177-D: variable "nChar" was declared but never referenced
+Updated\convolutions.c(39): warning:  #177-D: variable "itempx" was declared but never referenced
+Updated\convolutions.c(40): warning:  #177-D: variable "itemph" was declared but never referenced
+Updated\convolutions.c(42): warning:  #177-D: variable "tempy" was declared but never referenced
+Updated\convolutions.c(46): warning:  #550-D: variable "outxs" was set but never used
+Updated\convolutions.c(47): warning:  #550-D: variable "outxl" was set but never used
+Updated\convolutions.c(533): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=5044 RO-data=304 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+"conv-c.axf" - 0 Error(s), 21 Warning(s).

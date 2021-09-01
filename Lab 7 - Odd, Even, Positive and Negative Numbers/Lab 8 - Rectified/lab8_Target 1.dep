@@ -1,0 +1,5 @@
+Dependencies for Project 'lab8', Target 'Target 1': (DO NOT MODIFY !)
+F (.\7a2.asm)(0x6049EBE9)(--device DARMP --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files\ARM\INC\Philips" --list "7a2.lst" --xref -o "7a2.o")
+F (.\7a.asm)(0x6049EC04)(--device DARMP --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files\ARM\INC\Philips" --list "7a.lst" --xref -o "7a.o")
+F (.\7a4.asm)(0x6049F51F)(--device DARMP --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files\ARM\INC\Philips" --list "7a4.lst" --xref -o "7a4.o")
+F (.\7a3.asm)(0x6049EBD5)(--device DARMP --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files\ARM\INC\Philips" --list "7a3.lst" --xref -o "7a3.o")

@@ -1,0 +1,60 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             SBCS, CODE, READONLY
+    2 00000000         
+    3 00000000                 ENTRY
+    4 00000000 E3A00000        LDR              R0, =0X00000000
+    5 00000004 E59F1020        LDR              R1, =0X40001000
+    6 00000008 E3A03020        MOV              R3, #32
+    7 0000000C E4912004        LDR              R2, [R1], #04
+    8 00000010         
+    9 00000010         LOOP
+   10 00000010 E1B020A2        MOVS             R2, R2, LSR #01
+   11 00000014 22800001        ADDCS            R0, R0, #01
+   12 00000018 32800000        ADDCC            R0, R0, #00
+   13 0000001C E2533001        SUBS             R3, R3, #01
+   14 00000020 1AFFFFFA        BNE              LOOP
+   15 00000024 E5810000        STR              R0, [R1]
+   16 00000028         
+   17 00000028 EAFFFFFE 
+                       UP      B                UP
+   18 0000002C                 END
+              40001000 
+Command Line: --debug --xref --device=DARMP --apcs=interwork -o8c.o -I"C:\Progr
+am Files\ARM\INC\Philips" --predefine="__EVAL SETA 1" --list=8c.lst 8c.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+LOOP 00000010
+
+Symbol: LOOP
+   Definitions
+      At line 9 in file 8c.asm
+   Uses
+      At line 14 in file 8c.asm
+Comment: LOOP used once
+SBCS 00000000
+
+Symbol: SBCS
+   Definitions
+      At line 1 in file 8c.asm
+   Uses
+      None
+Comment: SBCS unused
+UP 00000028
+
+Symbol: UP
+   Definitions
+      At line 17 in file 8c.asm
+   Uses
+      At line 17 in file 8c.asm
+Comment: UP used once
+3 symbols
+325 symbols in table

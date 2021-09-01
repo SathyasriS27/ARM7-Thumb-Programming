@@ -1,0 +1,2 @@
+Dependencies for Project 'lab10', Target 'Target 1': (DO NOT MODIFY !)
+F (.\q10.asm)(0x6065934B)(--device DARMP --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files\ARM\INC\Philips" --list "q10.lst" --xref -o "q10.o")

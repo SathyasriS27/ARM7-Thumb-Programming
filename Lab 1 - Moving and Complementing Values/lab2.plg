@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Yash Umale\Documents\Microprocessor Lab Source Files\Lab 1\lab2.uvproj
+Project File Date:  01/20/2021
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+assembling lab21.asm...
+linking...
+lab2.axf: Warning: L6665W: Neither Lib$$Request$$armlib Lib$$Request$$cpplib defined, not searching ARM libraries.
+lab2.axf: Error: L6411W: No compatible library exists with a definition of startup symbol __main.
+Target not created
+Build target 'Target 1'
+linking...
+lab2.axf: Warning: L6665W: Neither Lib$$Request$$armlib Lib$$Request$$cpplib defined, not searching ARM libraries.
+lab2.axf: Error: L6411W: No compatible library exists with a definition of startup symbol __main.
+Target not created
+Build target 'Target 1'
+linking...
+lab2.axf: Warning: L6665W: Neither Lib$$Request$$armlib Lib$$Request$$cpplib defined, not searching ARM libraries.
+lab2.axf: Error: L6411W: No compatible library exists with a definition of startup symbol __main.
+Target not created
+Build target 'Target 1'
+linking...
+lab2.axf: Warning: L6665W: Neither Lib$$Request$$armlib Lib$$Request$$cpplib defined, not searching ARM libraries.
+lab2.axf: Error: L6411W: No compatible library exists with a definition of startup symbol __main.
+Target not created

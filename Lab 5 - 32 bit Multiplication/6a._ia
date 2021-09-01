@@ -1,0 +1,1 @@
+--device DARMP --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files\ARM\INC\Philips" --list "6a.lst" --xref -o "6a.o" "6a.asm"

@@ -1,0 +1,51 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             LAB5, CODE, READONLY
+    2 00000000         ENTRY
+    3 00000000 E3A00101        LDR              R0,=0X40000000
+    4 00000004 E5B01004        LDR              R1, [R0, #04]!
+    5 00000008 E5B02004        LDR              R2, [R0, #04]!
+    6 0000000C E0513002        SUBS             R3, R1, R2
+    7 00000010 E5803000        STR              R3, [R0]
+    8 00000014 EAFFFFFE 
+                       UP      B                UP
+    9 00000018                 END
+Command Line: --debug --xref --device=DARMP --apcs=interwork -o5a_sub.o -I"C:\P
+rogram Files\ARM\INC\Philips" --predefine="__EVAL SETA 1" --list=5a_sub.lst 5a_
+sub.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+ENTRY 00000000
+
+Symbol: ENTRY
+   Definitions
+      At line 2 in file 5a_sub.asm
+   Uses
+      None
+Comment: ENTRY unused
+LAB5 00000000
+
+Symbol: LAB5
+   Definitions
+      At line 1 in file 5a_sub.asm
+   Uses
+      None
+Comment: LAB5 unused
+UP 00000014
+
+Symbol: UP
+   Definitions
+      At line 8 in file 5a_sub.asm
+   Uses
+      At line 8 in file 5a_sub.asm
+Comment: UP used once
+3 symbols
+323 symbols in table

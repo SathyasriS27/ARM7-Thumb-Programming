@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "convolutions.o" --strict --scatter "designProblemC.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\designProblemC.map" -o "designProblemC.axf"

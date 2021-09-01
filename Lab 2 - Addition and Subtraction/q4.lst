@@ -1,0 +1,56 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             SBCS, CODE, READONLY
+    2 00000000         ENTRY
+    3 00000000 E3A000C0        MOV              R0,#0X000000C0 ; 192  (First nu
+                                                            mber MSB)
+    4 00000004 E3A01090        MOV              R1,#0X00000090 ; 144  (Second n
+                                                            umber MSB)
+    5 00000008 E3A0200A        MOV              R2,#0X0000000A ; 10   (First nu
+                                                            mber LSB)
+    6 0000000C E3A03010        MOV              R3,#0X00000010 ; 16   (Second n
+                                                            umber LSB)
+    7 00000010 E0505001        SUBS             R5,R0,R1    ; 48
+    8 00000014 E0C24003        SBC              R4,R2,R3    ; -6 (2's complemen
+                                                            t)
+    9 00000018 EAFFFFFE 
+                       UP      B                UP
+   10 0000001C                 END
+Command Line: --debug --xref --device=DARMP --apcs=interwork -oq4.o -I"C:\Progr
+am Files\ARM\INC\Philips" --predefine="__EVAL SETA 1" --list=q4.lst q4.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+ENTRY 00000000
+
+Symbol: ENTRY
+   Definitions
+      At line 2 in file q4.asm
+   Uses
+      None
+Comment: ENTRY unused
+SBCS 00000000
+
+Symbol: SBCS
+   Definitions
+      At line 1 in file q4.asm
+   Uses
+      None
+Comment: SBCS unused
+UP 00000018
+
+Symbol: UP
+   Definitions
+      At line 9 in file q4.asm
+   Uses
+      At line 9 in file q4.asm
+Comment: UP used once
+3 symbols
+323 symbols in table

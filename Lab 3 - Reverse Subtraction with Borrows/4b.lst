@@ -1,0 +1,40 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             SBSC, CODE,READONLY
+    2 00000000                 ENTRY
+    3 00000000 E3A000BC        MOV              R0,#0X000000BC ; 188
+    4 00000004 E3A0109F        MOV              R1,#0X0000009F ; 159
+    5 00000008 E0712000        RSBS             R2,R1,R0
+    6 0000000C EAFFFFFE 
+                       UP      B                UP
+    7 00000010                 END
+Command Line: --debug --xref --device=DARMP --apcs=interwork -o4b.o -I"C:\Progr
+am Files\ARM\INC\Philips" --predefine="__EVAL SETA 1" --list=4b.lst 4b.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+SBSC 00000000
+
+Symbol: SBSC
+   Definitions
+      At line 1 in file 4b.asm
+   Uses
+      None
+Comment: SBSC unused
+UP 0000000C
+
+Symbol: UP
+   Definitions
+      At line 6 in file 4b.asm
+   Uses
+      At line 6 in file 4b.asm
+Comment: UP used once
+2 symbols
+322 symbols in table

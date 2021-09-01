@@ -1,0 +1,41 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             SBCS, CODE, READONLY
+    2 00000000                 ENTRY
+    3 00000000 E3A00101        LDR              R0,=0X40000000 ;Divisor
+    4 00000004 E4901004        LDR              R1, [R0], #04 ;Dividend
+    5 00000008 E4902004        LDR              R2, [R0], #04 ;Remainder
+    6 0000000C E3E06000        MOV              R6,#0xFFFFFFFF
+    7 00000010 EAFFFFFE 
+                       UP      B                UP
+    8 00000014                 END
+Command Line: --debug --xref --device=DARMP --apcs=interwork -o7a4.o -I"C:\Prog
+ram Files\ARM\INC\Philips" --predefine="__EVAL SETA 1" --list=7a4.lst 7a4.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+SBCS 00000000
+
+Symbol: SBCS
+   Definitions
+      At line 1 in file 7a4.asm
+   Uses
+      None
+Comment: SBCS unused
+UP 00000010
+
+Symbol: UP
+   Definitions
+      At line 7 in file 7a4.asm
+   Uses
+      At line 7 in file 7a4.asm
+Comment: UP used once
+2 symbols
+322 symbols in table
